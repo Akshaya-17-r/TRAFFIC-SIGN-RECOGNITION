@@ -1,128 +1,79 @@
-# Traffic Sign Recognition Dashboard (Dash + ViT)
+Traffic Sign Recognition Dashboard (Dash + ViT) 🚦
 
-This project is a prototype Traffic Sign Recognition system with a Dash dashboard, ViT model, preprocessing, training, evaluation and real-time detection.
+Traffic Sign Recognition (TSR) – Mini Driver Assistance Prototype
 
-Place the GTSRB dataset under `dataset/train` and `dataset/test` as directories of class folders. Install requirements and run the dashboard:
-
-```
-pip install -r dash_app/requirements.txt
-python dash_app/app.py
-```
-
-See individual scripts in `dash_app/scripts/` for training, preprocessing, evaluation and detection.
-# Traffic Sign Recognition (TSR) - Mini Driver Assistance Prototype
-
-This project provides a full Traffic Sign Recognition pipeline with training,
-evaluation, a YOLO+ViT hybrid detection pipeline, voice alerts, and a Streamlit
-dashboard for live detection.
-
-Place the GTSRB dataset under `dataset/train` and `dataset/test` as class folders.
-
-Setup
-
-1. Create a virtual environment and activate it.
-2. Install dependencies:
-
-```powershell
-# from workspace root (d:\traffic)
-python -m pip install -r requirements.txt
-```
-
-Training
-
-```powershell
-python -m tsr_project.train
-```
-
-Run real-time detection
-
-```powershell
-python -m tsr_project.detect
-```
-
-Run Streamlit dashboard
-
-```powershell
-streamlit run tsr_project/dashboard.py
-```
-
-Files
-
-- `tsr_project/` - main package
-- `config.json` - configuration for dataset paths and hyperparams
-- `requirements.txt` - python deps
-- `sign_meanings.json` - mapping of class -> meaning and instructionTraffic Sign Recognition (ViT + YOLO Hybrid)
+This project is a Traffic Sign Recognition system designed as a mini driver assistance prototype. It combines a Vision Transformer (ViT) model for traffic sign classification with a YOLO-based detector for detecting multiple signs in real-time. The system also provides voice alerts, a dashboard interface, and logging for safety-critical applications.
 
 Overview
---------
-This project implements a Traffic Sign Recognition system using a Vision Transformer (ViT) pretrained on ImageNet combined with a YOLO-based detector for multi-sign detection. It includes training, evaluation, a real-time OpenCV+Streamlit dashboard, voice alerts (English + Tamil), and logging.
 
-Place the GTSRB dataset under:
+Road safety can be enhanced with automated traffic sign recognition. This project demonstrates a pipeline that:
 
-  dataset/train
-  dataset/test
+Processes traffic sign images from the GTSRB dataset.
 
+Trains a Vision Transformer (ViT) for accurate classification.
 
-Install dependencies (recommended inside a virtualenv):
+Integrates YOLO-based detection to detect multiple signs in real-time camera feeds.
 
-Windows PowerShell example:
+Provides a dashboard (Dash & Streamlit) for live visualization.
 
-```powershell
-cd d:\traffic
-python -m venv .venv
-. .venv\Scripts\Activate.ps1
-pip install --upgrade pip
-pip install -r requirements.txt
-```
+Issues voice alerts in English and Tamil for driver awareness.
 
-Quick start (run dashboard):
+The system can be extended for driver assistance systems (ADAS) and educational purposes.
 
-```powershell
-streamlit run src/streamlit_app.py
-```
+Architecture
 
-Run training (example):
+Data Preprocessing: Images are resized, normalized, and augmented to improve model generalization.
 
-```powershell
-python run.py --mode train --config config.json
-```
+Vision Transformer (ViT): Pretrained on ImageNet, fine-tuned on traffic sign classes for high accuracy.
 
-Run evaluation (example):
+YOLO Detector: Detects multiple signs simultaneously in a frame, enabling hybrid detection.
 
-```powershell
-python run.py --mode eval --config config.json --checkpoint checkpoints/best.pt
-```
+Real-Time Detection: Uses OpenCV to process video streams, overlay detection results, and trigger alerts.
 
-Run a quick smoke test to validate imports and model forward pass:
+Dashboard & Logging:
 
-```powershell
-python test_smoke.py
-```
+Dash dashboard provides a real-time interactive interface.
 
+Streamlit app supports live detection visualization.
 
-Project structure
------------------
-- src/: main source code
-- dataset/: expected dataset location (not included)
-- checkpoints/: model checkpoints saved during training
-- results/: evaluation outputs and misclassified images
-- logs/: detection CSV logs
-- config.json: runtime configuration
+Logs detection events for analysis.
 
-See `config.json` to configure paths, training hyperparameters, and detection thresholds.
+Key Features
 
-Run & Deploy (Dash)
--------------------
-From the workspace root (PowerShell):
+Accurate classification and detection of traffic signs.
 
-```powershell
-# create venv and activate
-python -m venv .venv; .\.venv\Scripts\Activate.ps1
-pip install --upgrade pip
-pip install -r requirements.txt
+Multi-sign detection in a single frame.
 
-# run the Dash dashboard
-python .\dash_app\app.py
-```
+Real-time alerts for drivers to enhance safety.
 
-Optional: build a Docker image (example): create a Dockerfile that installs requirements and runs `python dash_app/app.py` and then build and run.
+Visual dashboards for monitoring and demonstration.
+
+Supports English and Tamil voice notifications.
+
+Use Cases
+
+Driver Assistance: Alerts drivers about upcoming traffic signs.
+
+Traffic Monitoring: Analyze road signs in video streams.
+
+Educational Tool: Demonstrates the integration of computer vision models in real-world scenarios.
+
+Project Structure
+
+src/ – Core code for training, detection, and dashboard.
+
+tsr_project/ – Python package for model pipeline, detection, and dashboards.
+
+dash_app/ – Dash dashboard implementation.
+
+dataset/ – Contains GTSRB dataset (train/test folders).
+
+checkpoints/ – Stores trained model weights.
+
+results/ – Evaluation outputs and misclassified images.
+
+logs/ – Detection logs in CSV format.
+
+config.json – Runtime configurations for dataset paths, thresholds, and hyperparameters.
+
+sign_meanings.json – Mapping of class IDs to traffic sign meanings and instructions
