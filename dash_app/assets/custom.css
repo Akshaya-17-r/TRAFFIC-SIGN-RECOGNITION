@@ -1,0 +1,32 @@
+:root {
+    --bg: #0f1724;
+    --card: #0b1220;
+    --text: #e6eef8;
+    --accent: #ff6b6b;
+}
+body {
+    background: linear-gradient(180deg, #04152a 0%, #03202f 100%);
+    color: var(--text);
+    font-family: 'Inter', sans-serif;
+}
+.card {
+    background: rgba(255,255,255,0.03);
+    border-radius: 10px;
+    padding: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+}
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text);
+}
+.muted { color: rgba(230,238,248,0.7); }
+
+/* Light theme override */
+body.light {
+    --bg: #f7f9fb;
+    --card: #ffffff;
+    --text: #0b1220;
+    --accent: #0077cc;
+    background: linear-gradient(180deg, #ffffff 0%, #f2f6fa 100%);
+}

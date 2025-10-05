@@ -1,0 +1,33 @@
+{
+  "stop": {
+    "meaning": "Stop and wait",
+    "instruction": "Stop the vehicle before the line",
+    "rule": "Failure to stop is a traffic violation and may incur fines.",
+    "fact": "Stop signs were standardized in the 1920s and adopted widely after the 1949 Geneva Convention."
+  },
+  "yield": {
+    "meaning": "Give way",
+    "instruction": "Slow down and yield to oncoming traffic",
+    "rule": "Yielding is required when entering a major road from a minor one.",
+    "fact": "Yield signs originated in the US in 1950s to improve traffic flow."
+  },
+  "no_entry": {
+    "meaning": "No entry",
+    "instruction": "Do not enter this road",
+    "rule": "Vehicles must not enter; this sign protects one-way streets and restricted areas.",
+    "fact": "No entry signs use a white bar on red background for instant recognition."
+  },
+  "speed_limit_20": {
+    "meaning": "Speed limit 20 km/h",
+    "instruction": "Do not exceed 20 km/h",
+    "rule": "Obey posted speed limits; exceeding them is punishable by law.",
+    "fact": "Speed limit signs are based on local safety studies and road classification."
+  }
+}
+{
+  "speed_limit_20": {"en": "Speed limit 20 km/h", "instruction": "Slow down to 20 km/h", "category": "speed"},
+  "stop": {"en": "Stop", "instruction": "Stop completely and check traffic", "category": "priority"},
+  "yield": {"en": "Give way", "instruction": "Slow down and give way", "category": "priority"},
+  "no_entry": {"en": "No entry", "instruction": "Do not enter", "category": "regulatory"},
+  "turn_right": {"en": "Turn right", "instruction": "Prepare to turn right", "category": "direction"}
+}

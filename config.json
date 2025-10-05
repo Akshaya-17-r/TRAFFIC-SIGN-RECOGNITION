@@ -1,0 +1,24 @@
+{
+  "dataset": {
+    "train_dir": "dataset/train",
+    "test_dir": "dataset/test"
+  },
+  "training": {
+    "batch_size": 32,
+    "epochs": 20,
+    "lr": 0.0001,
+    "image_size": 224,
+    "num_workers": 4,
+    "early_stopping_patience": 5
+  },
+  "detection": {
+    "confidence_threshold": 0.5,
+    "yolo_model": "yolov8n.pt",
+    "device": "cpu"
+  },
+  "paths": {
+    "checkpoints": "checkpoints",
+    "results": "results",
+    "logs": "logs/detections.csv"
+  }
+}

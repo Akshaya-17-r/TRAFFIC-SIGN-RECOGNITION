@@ -1,0 +1,232 @@
+{
+  "stop": {
+    "en": "Stop",
+    "ta": "நிறுத்து",
+    "hi": "रुकें",
+    "es": "Alto",
+    "fr": "Stop",
+    "instruction": "Stop completely and check traffic before proceeding.",
+    "rule": "Failure to stop may incur fines and points on your license.",
+    "fact": "Stop signs follow standardized designs in many countries (Vienna Convention)."
+  },
+  "yield": {
+    "en": "Give way (Yield)",
+    "ta": "வழிவிட்டு",
+    "hi": "आगे जाने दें",
+    "es": "Ceda el paso",
+    "fr": "Cédez le passage",
+    "instruction": "Slow down and give priority to traffic on the major road.",
+    "rule": "Yield to vehicles on the main road and pedestrians.",
+    "fact": "Yield signs are often triangular and indicate priority rules."
+  },
+  "no_entry": {
+    "en": "No entry",
+    "ta": "நுழையக்கூடாது",
+    "hi": "प्रवेश वर्जित",
+    "es": "Prohibido el paso",
+    "fr": "Sens interdit",
+    "instruction": "Do not enter this road or lane from your direction.",
+    "rule": "Entering a no-entry zone is a traffic offense.",
+    "fact": "No entry signs protect one-way streets and restricted areas."
+  },
+  "speed_limit_20": {
+    "en": "Speed limit 20 km/h",
+    "ta": "வேகம் வரம்பு 20 கிமீ/மணி",
+    "hi": "गति सीमा 20 किमी/घंटा",
+    "es": "Límite 20 km/h",
+    "fr": "Limite 20 km/h",
+    "instruction": "Reduce speed to 20 km/h or below.",
+    "rule": "Obey posted speed limits; penalties apply for violations.",
+    "fact": "Lower speed limits are common in residential and school zones."
+  },
+  "speed_limit_30": {
+    "en": "Speed limit 30 km/h",
+    "ta": "வேகம் வரம்பு 30 கிமீ/மணி",
+    "hi": "गति सीमा 30 किमी/घंटा",
+    "es": "Límite 30 km/h",
+    "fr": "Limite 30 km/h",
+    "instruction": "Maintain speed at or below 30 km/h.",
+    "rule": "Speeding fines increase with the severity of the excess.",
+    "fact": "30 km/h zones improve pedestrian safety in urban areas."
+  },
+  "speed_limit_50": {
+    "en": "Speed limit 50 km/h",
+    "ta": "வேகம் வரம்பு 50 கிமீ/மணி",
+    "hi": "गति सीमा 50 किमी/घंटा",
+    "es": "Límite 50 km/h",
+    "fr": "Limite 50 km/h",
+    "instruction": "Keep your speed at or below 50 km/h.",
+    "rule": "Observe variable and temporary speed limit signage.",
+    "fact": "Speed limits often change at town boundaries."
+  },
+  "turn_right": {
+    "en": "Turn right",
+    "ta": "வலமாக திரும்பு",
+    "hi": "दाएँ मुड़ें",
+    "es": "Gire a la derecha",
+    "fr": "Tourner à droite",
+    "instruction": "Prepare to make a right turn; signal and give way where required.",
+    "rule": "Use indicators and keep to lane discipline while turning.",
+    "fact": "Turn signs can be mandatory or advisory depending on design."
+  },
+  "turn_left": {
+    "en": "Turn left",
+    "ta": "இடக்காக திரும்பு",
+    "hi": "बाएँ मुड़ें",
+    "es": "Gire a la izquierda",
+    "fr": "Tourner à gauche",
+    "instruction": "Prepare for a left turn; check mirrors and signal appropriately.",
+    "rule": "Yield to oncoming traffic if there is no protected turn signal.",
+    "fact": "Protected turns reduce conflict at busy intersections."
+  },
+  "roundabout": {
+    "en": "Roundabout ahead",
+    "ta": "சுற்றுப்பாதை முன் உள்ளது",
+    "hi": "गोल चक्कर आगे",
+    "es": "Rotonda adelante",
+    "fr": "Rond-point à l'approche",
+    "instruction": "Slow down and give way to circulating traffic.",
+    "rule": "Enter the roundabout only when safe; follow lane markings.",
+    "fact": "Roundabouts reduce severe collisions compared to signalized junctions."
+  },
+  "pedestrian_crossing": {
+    "en": "Pedestrian crossing",
+    "ta": "பயணிகள் கடக்கும் இடம்",
+    "hi": "पैदल यात्री पार करने का स्थान",
+    "es": "Paso de peatones",
+    "fr": "Passage pour piétons",
+    "instruction": "Stop for pedestrians on the crossing and do not overtake stopped vehicles.",
+    "rule": "Pedestrians have right of way on marked crossings in many jurisdictions.",
+    "fact": "Zebra crossings use high-visibility markings to slow traffic."
+  },
+  "school_zone": {
+    "en": "School zone",
+    "ta": "பள்ளி பகுதி",
+    "hi": "स्कूल क्षेत्र",
+    "es": "Zona escolar",
+    "fr": "Zone scolaire",
+    "instruction": "Drive slowly and watch for children; observe reduced speed limits.",
+    "rule": "Strict speed enforcement often applies during school hours.",
+    "fact": "School zones are common places for increased pedestrian activity."
+  },
+  "no_overtaking": {
+    "en": "No overtaking",
+    "ta": "முன்னிலையில் செல்லக் கூடாது",
+    "hi": "ओवरटेकिंग निषेध",
+    "es": "Prohibido adelantar",
+    "fr": "Interdiction de dépasser",
+    "instruction": "Do not overtake other vehicles until the restriction ends.",
+    "rule": "Overtaking in prohibited zones can lead to fines and license points.",
+    "fact": "No-overtake zones are placed where visibility is limited."
+  },
+  "slippery_road": {
+    "en": "Slippery road",
+    "ta": "தரையில் நசுக்கமானது",
+    "hi": "फिसलन भरी सड़क",
+    "es": "Carretera resbaladiza",
+    "fr": "Route glissante",
+    "instruction": "Reduce speed and avoid sudden maneuvers.",
+    "rule": "Drive at speeds appropriate for road conditions.",
+    "fact": "Oil or rain can create temporary slippery surfaces."
+  },
+  "road_work": {
+    "en": "Road works / Construction",
+    "ta": "சாலை சீரமைப்பு வேலைகள்",
+    "hi": "सड़क निर्माण कार्य",
+    "es": "Obras en la carretera",
+    "fr": "Travaux",
+    "instruction": "Slow down, follow temporary signs and workers' directions.",
+    "rule": "Obey temporary speed limits and lane closures.",
+    "fact": "Work zones often have reduced speeds and narrow lanes."
+  },
+  "priority_road": {
+    "en": "Priority road",
+    "ta": "முக்கிய சாலை",
+    "hi": "प्राथमिकता सड़क",
+    "es": "Vía principal",
+    "fr": "Route prioritaire",
+    "instruction": "You have the right of way until the end-of-priority sign.",
+    "rule": "Priority roads give vehicles precedence over side roads.",
+    "fact": "Marked by a yellow diamond sign in many countries."
+  },
+  "end_of_restriction": {
+    "en": "End of restriction",
+    "ta": "கடத்தல் முடிவு",
+    "hi": "प्रतिबंध समाप्त",
+    "es": "Fin de restricción",
+    "fr": "Fin d'interdiction",
+    "instruction": "Normal traffic rules resume; previous restrictions no longer apply.",
+    "rule": "Be aware that speed or overtaking limits may be lifted.",
+    "fact": "Often shown with diagonal stripes across the original prohibitory sign."
+  },
+  "keep_left": {
+    "en": "Keep left",
+    "ta": "இடதுபுறம் ஓட்டு",
+    "hi": "बाएँ रहें",
+    "es": "Manténgase a la izquierda",
+    "fr": "Restez à gauche",
+    "instruction": "Keep to the left side of the traffic island or divider.",
+    "rule": "Obey lane direction signs to avoid head-on conflicts.",
+    "fact": "Used to direct traffic around medians or obstacles."
+  },
+  "no_parking": {
+    "en": "No parking",
+    "ta": "நிறுத்தம் தடை",
+    "hi": "पार्किंग निषेध",
+    "es": "Prohibido estacionar",
+    "fr": "Stationnement interdit",
+    "instruction": "Do not park vehicles here; loading/unloading may also be restricted.",
+    "rule": "Violating parking restrictions can lead to fines or towing.",
+    "fact": "No parking signs are distinct from no stopping / no standing signs."
+  },
+  "hospital": {
+    "en": "Hospital nearby",
+    "ta": "மருத்துவமனை அருகில்",
+    "hi": "अस्पताल नज़दीक",
+    "es": "Hospital cercano",
+    "fr": "Hôpital à proximité",
+    "instruction": "Reduce noise and give priority to ambulances.",
+    "rule": "Avoid blocking access routes to medical facilities.",
+    "fact": "Hospital signs alert drivers to vulnerable pedestrians and emergency vehicles."
+  },
+  "bicycle_crossing": {
+    "en": "Bicycle crossing",
+    "ta": "சைக்கிள் கடந்தல் இடம்",
+    "hi": "साइकिल क्रॉसिंग",
+    "es": "Cruce de bicicletas",
+    "fr": "Passage pour vélos",
+    "instruction": "Watch for cyclists and give way when required.",
+    "rule": "Cyclists may use marked crossings similar to pedestrians.",
+    "fact": "Dedicated cycle infrastructure reduces conflicts with motor traffic."
+  },
+  "children": {
+    "en": "Children crossing / playground nearby",
+    "ta": "பிள்ளைகள் இருக்கலாம்",
+    "hi": "बच्चों का क्षेत्र",
+    "es": "Niños cruzando",
+    "fr": "Enfants à proximité",
+    "instruction": "Drive slowly and be alert for children entering the road.",
+    "rule": "Extra caution required in residential and school areas.",
+    "fact": "These signs are placed near playgrounds, schools and parks."
+  },
+  "merge": {
+    "en": "Merge ahead",
+    "ta": "நேர்கோட்டில் இணைவு",
+    "hi": "मर्ज आगे",
+    "es": "Fusión adelante",
+    "fr": "Fusion à venir",
+    "instruction": "Adjust speed to merge safely and signal when changing lanes.",
+    "rule": "Drivers must make room for merging traffic where required.",
+    "fact": "Merge signs reduce sudden lane changes and improve flow."
+  },
+  "two_way_traffic": {
+    "en": "Two-way traffic",
+    "ta": "இரு திசை போக்குவரத்து",
+    "hi": "दो-तरफ़ा यातायात",
+    "es": "Tráfico en ambos sentidos",
+    "fr": "Trafic à double sens",
+    "instruction": "Be aware of oncoming vehicles; stay within your lane.",
+    "rule": "Keep left/right as per local driving side regulations.",
+    "fact": "Often posted when a one-way road ends or narrows."
+  }
+}
